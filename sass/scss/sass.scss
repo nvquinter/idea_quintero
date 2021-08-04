@@ -89,7 +89,7 @@ main{
 }
 
 //each
-@each $fondo in mujer, hombre, fondoninño, fondocalzado{
+@each $fondo in mujer, hombre, fondonino, fondocalzado{
     .#{$fondo}{
         background-image: url('../../imagenes/#{$fondo}.jpg');
     }
