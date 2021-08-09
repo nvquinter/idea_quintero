@@ -1,0 +1,50 @@
+
+.fondo{
+    width: 400px;
+    height: 300px;
+    padding: 20px 20px;
+    margin: 40px 40px ;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fondo__li{
+    font-family: Papyrus, fantasy; 
+    font-size: 25px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px;
+    
+}
+.fondo--modi{
+    padding: 1em;
+    border: double;
+    color: blanchedalmond;
+}
+
+/*Main*/
+main{
+    padding: 5px;
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }  
+    a{
+        text-decoration: none;
+        color: black;
+    }    
+}
+
+//each
+@each $fondo in mujer, hombre, fondonino, fondocalzado{
+    .#{$fondo}{
+        background-image: url('../../imagenes/#{$fondo}.jpg');
+    }
+}

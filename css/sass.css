@@ -2,17 +2,34 @@
 /* Smartphone */
 @media (max-width: 480px) {
   body {
-    background-color: #cfe0e8; }
+    background-color: #cfe0e8;
+  }
+
+  /*Header*/
   header {
-    background-color: #d6d4e0; }
-  div h1 {
+    background-color: #d6d4e0;
+  }
+  header img {
+    padding: 3px;
+    margin: 3px;
+  }
+  header h1 {
     font-family: "Brush Script MT", cursive;
     font-size: 10px;
     font-style: normal;
     font-variant: normal;
     font-weight: 200;
     line-height: 16.4px;
-    align-items: center; }
+    align-items: center;
+  }
+  header h1 p {
+    font-family: "Brush Script MT", cursive;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   /*Main*/
   main ul {
     list-style-type: none;
@@ -26,17 +43,21 @@
     padding: 5px 5px;
     background-position: center center;
     background-size: cover;
-    padding: 1em; }
-    main ul li {
-      font-family: Papyrus, fantasy;
-      font-size: 15px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 100;
-      line-height: 10px; }
-      main ul li a {
-        text-decoration: none;
-        color: black; }
+    padding: 1em;
+  }
+  main ul li {
+    font-family: Papyrus, fantasy;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 10px;
+  }
+  main ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
   /*Footer*/
   footer p {
     font-family: "Brush Script MT", cursive;
@@ -48,17 +69,19 @@
     color: black;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
   footer h2 {
     font-family: "Brush Script MT", cursive;
-    font-size: 10px;
+    font-size: 15px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 15.4px;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
   footer h3 {
     font-family: "Brush Script MT", cursive;
     font-size: 10px;
@@ -68,7 +91,8 @@
     line-height: 15.4px;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
   footer h4 {
     font-family: "Brush Script MT", cursive;
     font-size: 10px;
@@ -78,43 +102,87 @@
     line-height: 15.4px;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
+
   /*Transicion*/
   .transicionMenu a:hover {
     transition: 3s;
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3px;
+    padding: 5px;
+  }
+
+  .divFondo {
+    background-color: #b8a9c9;
+  }
+
   .subtitulo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 10px;
     background-color: black;
-    color: orangered; }
+    color: orangered;
+  }
+
   .menu {
     background-color: #d8dede;
-    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%); }
+    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+  }
+
+  .seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+  }
+
   .footer {
     background-color: #e3cae6;
     display: flex;
     justify-content: space-between;
     padding: 20px 10%;
-    margin-top: 20px; } }
-
+    margin-top: 20px;
+  }
+}
 /* Tablet */
 @media (min-width: 600px) {
   body {
-    background-color: #b7d7e8; }
+    background-color: #b7d7e8;
+  }
+
   /*Header*/
   header {
-    background-color: #d6d4e0; }
-  div h1 {
+    background-color: #d6d4e0;
+  }
+  header img {
+    padding: 3px;
+    margin: 3px;
+  }
+  header h1 {
     font-family: "Brush Script MT", cursive;
     font-size: 20px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 200;
+    font-weight: 500;
     line-height: 16.4px;
-    align-items: center; }
+    align-items: center;
+  }
+  header h1 p {
+    font-family: "Brush Script MT", cursive;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   /*Main*/
   main section ul {
     list-style-type: none;
@@ -128,135 +196,187 @@
     padding: 5px 5px;
     background-position: center center;
     background-size: cover;
-    padding: 1em; }
-    main section ul li {
-      font-family: Papyrus, fantasy;
-      font-size: 15px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 100;
-      line-height: 10px; }
-      main section ul li a {
-        text-decoration: none;
-        color: black; }
+    padding: 1em;
+  }
+  main section ul li {
+    font-family: Papyrus, fantasy;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 10px;
+  }
+  main section ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
   /*Footer*/
   footer {
-    flex-direction: column; }
-    footer p {
-      font-family: "Brush Script MT", cursive;
-      font-size: 10px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 200;
-      line-height: 10px;
-      color: black;
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
-    footer h2 {
-      font-family: "Brush Script MT", cursive;
-      font-size: 15px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 500;
-      line-height: 15.4px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
-    footer h3 {
-      font-family: "Brush Script MT", cursive;
-      font-size: 10px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 500;
-      line-height: 15.4px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
-    footer h4 {
-      font-family: "Brush Script MT", cursive;
-      font-size: 10px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 500;
-      line-height: 15.4px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
-    footer h5 {
-      font-family: "Brush Script MT", cursive;
-      font-size: 10px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 500;
-      line-height: 15.4px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
+    flex-direction: column;
+  }
+  footer p {
+    font-family: "Brush Script MT", cursive;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    line-height: 10px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer h2 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer h3 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer h4 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer h5 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   /*Transicion*/
   .transicionMenu a:hover {
     transition: 3s;
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
+
   .header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 3px;
-    padding: 5px; }
+    padding: 5px;
+  }
+
+  .divFondo {
+    background-color: #b8a9c9;
+  }
+
   .subtitulo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 10px;
     background-color: black;
-    color: orangered; }
+    color: orangered;
+  }
+
   .menu {
     background-color: #d8dede;
-    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%); }
+    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+  }
+
+  .seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+  }
+
   .footer {
     background-color: #e3cae6;
     display: flex;
     justify-content: space-between;
     padding: 20px 10%;
-    margin-top: 20px; } }
-
+    margin-top: 20px;
+  }
+}
 /* Desktop */
 @media (min-width: 1024px) {
   body {
-    background-color: white; }
+    background-color: white;
+  }
+
   /*Header*/
   header {
-    background-color: #d6d4e0; }
-  div h1 {
+    background-color: #d6d4e0;
+  }
+  header img {
+    padding: 5px;
+    margin: 5px;
+  }
+  header h1 {
     font-family: "Brush Script MT", cursive;
-    font-size: 25px;
+    font-size: 50px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 200;
-    line-height: 16.4px;
-    align-items: center; }
+    font-weight: 700;
+    line-height: 26.4px;
+    align-items: center;
+  }
+  header h1 p {
+    font-family: "Brush Script MT", cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   /*Main*/
   main {
     background-color: #b8a9c9;
     padding: 8px;
-    margin: 2px; }
-    main ul {
-      list-style-type: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: stretch;
-      padding: 20px 20px; }
-      main ul li {
-        font-family: Papyrus, fantasy;
-        font-size: 25px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 20px; }
-        main ul li a {
-          text-decoration: none;
-          color: black;
-          align-items: baseline; }
+    margin: 2px;
+  }
+  main ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    padding: 20px 20px;
+  }
+  main ul li {
+    font-family: Papyrus, fantasy;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  main ul li a {
+    text-decoration: none;
+    color: black;
+    align-items: baseline;
+  }
+
   /*Footer*/
   footer p {
     font-family: "Brush Script MT", cursive;
@@ -268,7 +388,8 @@
     color: black;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
   footer h2 {
     font-family: "Brush Script MT", cursive;
     font-size: 25px;
@@ -278,7 +399,8 @@
     line-height: 15.4px;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
   footer h3 {
     font-family: "Brush Script MT", cursive;
     font-size: 20px;
@@ -288,7 +410,8 @@
     line-height: 15.4px;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
   footer h4 {
     font-family: "Brush Script MT", cursive;
     font-size: 20px;
@@ -298,7 +421,8 @@
     line-height: 15.4px;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
   footer h5 {
     font-family: "Brush Script MT", cursive;
     font-size: 20px;
@@ -308,42 +432,75 @@
     line-height: 15.4px;
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+  }
+
   /*Transicion*/
   .transicionMenu a:hover {
     transition: 3s;
-    font-size: 2rem; }
+    font-size: 2rem;
+  }
+
   .header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 5px;
-    padding: 10px; }
+    padding: 10px;
+  }
+
+  .divFondo {
+    background-color: #b8a9c9;
+  }
+
   .subtitulo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 20px;
     background-color: black;
-    color: orangered; }
+    color: orangered;
+  }
+
   .menu {
     background-color: #d8dede;
-    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%); }
+    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+  }
+
+  .seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+  }
+
   .footer {
     background-color: #e3cae6;
     display: flex;
     justify-content: space-between;
     padding: 20px 10%;
-    margin-top: 20px; } }
+    margin-top: 20px;
+  }
 
-main {
-  padding: 5px; }
-  main h2 {
-    font-family: Arial, Helvetica, sans-serif; }
-  main h3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
+  .grillaRepetitiva {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+}
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  align-items: center;
+  margin: 10px;
+}
 
 .fondo {
   width: 400px;
@@ -351,7 +508,8 @@ main {
   padding: 20px 20px;
   margin: 40px 40px;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .fondo__li {
   font-family: Papyrus, fantasy;
@@ -359,38 +517,48 @@ main {
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px; }
+  line-height: 20px;
+}
 
 .fondo--modi {
   padding: 1em;
   border: double;
-  color: blanchedalmond; }
+  color: blanchedalmond;
+}
 
 /*Main*/
 main {
-  padding: 5px; }
-  main h2 {
-    font-family: Arial, Helvetica, sans-serif; }
-  main ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start; }
-  main a {
-    text-decoration: none;
-    color: black; }
+  padding: 5px;
+}
+main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+main a {
+  text-decoration: none;
+  color: black;
+}
 
 .mujer {
-  background-image: url("../../imagenes/mujer.jpg"); }
+  background-image: url("../../imagenes/mujer.jpg");
+}
 
 .hombre {
-  background-image: url("../../imagenes/hombre.jpg"); }
+  background-image: url("../../imagenes/hombre.jpg");
+}
 
 .fondonino {
-  background-image: url("../../imagenes/fondonino.jpg"); }
+  background-image: url("../../imagenes/fondonino.jpg");
+}
 
 .fondocalzado {
-  background-image: url("../../imagenes/fondocalzado.jpg"); }
+  background-image: url("../../imagenes/fondocalzado.jpg");
+}
 
 /*Footer*/
 footer p {
@@ -403,11 +571,12 @@ footer p {
   color: black;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
-  footer p a {
-    text-decoration: none;
-    color: black; }
-
+  justify-content: center;
+}
+footer p a {
+  text-decoration: none;
+  color: black;
+}
 footer h2 {
   font-family: "Brush Script MT", cursive;
   font-size: 20px;
@@ -418,8 +587,8 @@ footer h2 {
   color: black;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
-
+  justify-content: center;
+}
 footer h3 {
   font-family: "Brush Script MT", cursive;
   font-size: 20px;
@@ -430,8 +599,8 @@ footer h3 {
   color: black;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
-
+  justify-content: center;
+}
 footer h4 {
   font-family: "Brush Script MT", cursive;
   font-size: 20px;
@@ -442,55 +611,38 @@ footer h4 {
   color: black;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
-
-.footer {
-  background-color: #e3cae6;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 10%;
-  margin-top: 20px; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a; }
-
-h1 {
-  font-family: Papyrus, fantasy;
-  font-size: 20px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 26.4px;
-  align-items: center;
-  margin: 10px; }
+  justify-content: center;
+}
 
 /*PAGINA CONTACTO*/
 form {
   display: block;
   margin-top: 0em;
-  padding: 20px; }
+  padding: 20px;
+}
 
 /*Transicion Menu*/
 .transicionMenu a:hover {
   transition: 3s;
-  font-size: 2rem; }
+  font-size: 2rem;
+}
+
+.contenedor {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  border: double;
+  color: blanchedalmond;
+}
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 5px;
-  padding: 10px; }
-
-.contenedor {
-  color: blanchedalmond;
-  background-color: #d6cbd3; }
+  margin: 2px;
+  padding: 2px;
+}
 
 .subtitulo {
   display: flex;
@@ -498,10 +650,20 @@ form {
   justify-content: center;
   font-size: 15px;
   background-color: #d8dede;
-  color: black; }
+  color: black;
+}
 
 .menu {
   background-color: #d8dede;
   background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
   padding: 3px;
-  margin: 3px; }
+  margin: 3px;
+}
+
+.footer {
+  background-color: #e3cae6;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  margin-top: 20px;
+}/*# sourceMappingURL=sass.css.map */
