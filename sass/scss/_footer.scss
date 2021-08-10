@@ -1,8 +1,13 @@
-  
+
+$size:20px;
+$bgcolor:#c3c1c9;
+$family:'Georama', sans-serif;
+
+
 //mixin
 @mixin footer {
-    font-family: "Brush Script MT", cursive;
-    font-size: 20px;
+    font-family: $family;
+    font-size: $size;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
@@ -34,9 +39,9 @@ h4{
 }
 }
 .footer{
-    background-color: #e3cae6;
+    background-color: $bgcolor;
     display: flex;
     justify-content: space-between;
-     padding: 20px 10%;
-     margin-top: 20px;
+    padding: 20px 10%;
+    margin-top: 20px;
 }
