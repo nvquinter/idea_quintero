@@ -37,11 +37,15 @@ h2{
 h4{
     @include footer;
 }
+h5{
+    @include footer;
 }
+}
+
 .footer{
     background-color: $bgcolor;
     display: flex;
     justify-content: space-between;
-    padding: 20px 10%;
-    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
 }
