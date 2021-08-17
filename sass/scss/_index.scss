@@ -1,9 +1,17 @@
 
-aside{
-    font-family: "Muli", sans-serif;
-    background-color: darkorchid;
+//Variables
+$size:20px;
+$family:'Georama', sans-serif;
 
+.carrusel{
+    font-size:$size;
+    font-family: $family;
 }
+
+.carrusel p{
+    color: black;
+}
+
 .fondo{
     width: 400px;
     height: 300px;

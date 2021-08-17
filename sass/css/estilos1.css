@@ -351,9 +351,12 @@ form {
   margin-top: 0em;
   padding: 20px; }
 
-aside {
-  font-family: "Muli", sans-serif;
-  background-color: darkorchid; }
+.carrusel {
+  font-size: 20px;
+  font-family: "Georama", sans-serif; }
+
+.carrusel p {
+  color: black; }
 
 .fondo {
   width: 400px;
